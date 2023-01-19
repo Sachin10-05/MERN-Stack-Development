@@ -1,0 +1,10 @@
+
+Using HTML & CSS:-
+
+* cafe menu
+* Debug exercise
+* Glassomorphic signup page
+* parallax website
+* sample invoice
+* task-1 (cards)
+* task-2 (positioning)
