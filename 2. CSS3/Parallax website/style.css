@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+
+.wrapper
+{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;                            /* for 3D-visualization and 3D-Transformation */
+}
+
+
+
+
+
+
+
+
+
+/* Container */
+.container
+{
+    position: relative;                           
+    height: 100%;
+    display: flex;                                /* for adjusting <h1> element in center.*/
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;                 /* To 'ON' 3D-effect, it always needed to be enabled whenever 'perspective' is given*/
+    z-index: -1;
+}
+
+.background-img, .foreground-img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.background-img
+{
+    transform: translateZ(-40px) scale(5);        /*as we move far away backround-img should look small*/
+}
+
+.foreground-img
+{
+    transform: translateZ(-20px) scale(3);
+}
+
+h1
+{
+    position: absolute;
+    top: 5rem;
+    font-size: 10rem;
+    color: white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Section*/
+section
+{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 5rem 0;
+}
+
+.secHeading
+{
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+
+.text
+{
+    font-size: 1rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg
+{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.desc
+{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.bg1
+{
+    background-image: url(./images/img-3.jpeg);
+}
+
+.bg2
+{
+    background-image: url(./images/img-4.jpeg);
+}
+
+.bg3
+{
+    background-image: url(./images/img-5.jpeg);
+}
+
+
+
