@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 150px;
+    position: relative;
+}
+
+.img-1
+{
+    /* border: 2px solid burlywood; */
+    width: 100%;
+    height: auto;
+}
+
+
+.text-1
+{
+    color: goldenrod;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.text-2
+{
+    color: goldenrod;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.text-3
+{
+    color: goldenrod;
+    position: absolute;
+    bottom: 16px; 
+    left: 16px;
+}
+
+.text-4
+{
+    color: goldenrod;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.text-5
+{
+    position: absolute;
+    top: 52%;
+    /*
+    width: 100%; 
+    text-align: center;
+    */
+    left: 40%;
+    color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+/* Soln-2 */
+/* Not good Solution */
+
+/*
+.text-1
+{
+    color: goldenrod;
+    position: relative;
+    bottom: 425px;
+    left: 10px;
+}
+
+.text-2
+{
+    color: goldenrod;
+    position: relative;
+    left: 590px;
+    bottom: 450px
+}
+
+.text-3
+{
+    color: goldenrod;
+    position: relative;
+    bottom: 110px;
+    left: 10px;
+}
+
+.text-4
+{
+    color: goldenrod;
+    position: relative;
+    left: 625px;
+    bottom: 140px;
+}
+
+.text-5
+{
+    color: goldenrod;
+    position: relative;
+    bottom: 325px;
+    width: 100%;
+    text-align: center;
+    left: 10px;
+}
+*/
